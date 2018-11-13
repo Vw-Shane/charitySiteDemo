@@ -16,7 +16,8 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    
+    <script type="text/javascript" src="javascript/app.js">
+    </script>
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <meta name="description" content="Kingiti School Scholarship and Village Health Outreach Fund, Inc.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -37,7 +38,8 @@
         </div>
         <div class="row" id="thisRow">
             <div class="col-xs-12">
-                <nav class="navbar navbar-default">
+                <!-- <button name="addDom">Add DOM element</button> -->
+                <nav class="navbar navbar-default" >
                     <div class="container-fluid">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
@@ -51,11 +53,11 @@
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav customnavbarnav">
-                                <li class="customlist"><a href="#">ABOUT US </a>
+                                <li class="customlist" name="about"><a href="#">ABOUT US </a>
                                 </li>
-                                <li class="customlist"><a href="#">BLOG </a>
+                                <li class="customlist" name="blog"><a href="#">BLOG </a>
                                 </li>
-                                <li class="customlist"><a href="#">DONATE </a>
+                                <li class="customlist" name="donate"><a href="#">DONATE </a>
                                 </li>
                             </ul>
                         </div>
@@ -64,6 +66,11 @@
                     <!-- /.container-fluid -->
                 </nav>
                 <!-- /.navbar navbar-default -->
+            </div>
+        </div>
+        <div  class="row" id="thatRow">
+           
+        </div>
 </body>
 
 </html>
