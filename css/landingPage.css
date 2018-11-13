@@ -1,91 +1,175 @@
 /*This will have layout set for each size screen Background color changes will initially represent screen size changes */
 
-#hey{background-color: blue}
+#hey {
+    background-color: blue
+}
 
 @media only screen and (min-width: 568px) {
-	/*iphone 5*/
-	#hey{background-color: teal}
+    /*iphone 5*/
+    #hey {
+        background-color: teal
+    }
+    #row1 {
 
+        background-image: url("../images/background.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        height: 320px;
+    }
+
+    #title {
+
+
+        color: white;
+        font-family: 'Alegreya', serif;
+        font-size: 35px;
+        font-size: 3.0vw;
+    }
+
+    .customnavbarnav {
+        width: 100%;
+        text-align: center;
+    }
+
+    .customlist {
+        width: 33.33333333333333%
+    }
 }
 
-#row1 {
-	
-    background-image: url("../images/background.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    height: 320px;
-}
-
-#title {
-
-
-    color: white;
-    font-family: 'Alegreya', serif;
-    font-size: 35px;
-    font-size: 3.0vw;
-}
-
-.customnavbarnav {
-    width: 100%;
-    text-align: center;
-}
-
-.customlist {
-    width: 33.33333333333333%
-}
-}
-}
 
 @media only screen and (min-width: 667px) {
-	/*iphon6-8*/
-	#hey{background-color: brown}
+    /*iphon6-8*/
+    #hey {
+        background-color: brown
+    }
+    #row1 {
+
+        background-image: url("../images/background.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        height: 375px;
+    }
+
+    #title {
+
+
+        color: white;
+        font-family: 'Alegreya', serif;
+        font-size: 35px;
+        font-size: 3.0vw;
+    }
+
+    .customnavbarnav {
+        width: 100%;
+        text-align: center;
+    }
+
+    .customlist {
+        width: 33.33333333333333%
+    }
 }
 
 @media only screen and (min-width: 736px) {
-	/*iphone 6-8+*/
-	#hey{background-color: yellow}
+    /*iphone 6-8+*/
+    #hey {
+        background-color: yellow
+    }
+    #row1 {
+
+        background-image: url("../images/background.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        height: 414px;
+    }
+
+    #title {
+
+
+        color: white;
+        font-family: 'Alegreya', serif;
+        font-size: 35px;
+        font-size: 3.0vw;
+    }
+
+    .customnavbarnav {
+        width: 100%;
+        text-align: center;
+    }
+
+    .customlist {
+        width: 33.33333333333333%
+    }
 }
 
 @media only screen and (min-width: 812px) {
-	/*iphoneX*/
-	#hey{background-color: violet}
+    /*iphoneX*/
+    #hey {
+        background-color: violet
+    }
+    #row1 {
+
+        background-image: url("../images/background.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        height: 375px;
+    }
+
+    #title {
+
+
+        color: white;
+        font-family: 'Alegreya', serif;
+        font-size: 35px;
+        font-size: 3.0vw;
+    }
+
+    .customnavbarnav {
+        width: 100%;
+        text-align: center;
+    }
+
+    .customlist {
+        width: 33.33333333333333%
+    }
 }
 
 @media only screen and (min-width: 1024px) {
     /* For desktop: */
     #thisRow {
-    height: 800px;
+        height: 800px;
+    }
+
+    #hey {
+        background-color: #99BD0C;
+    }
+
+    #row1 {
+        background-image: url("../images/background.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        height: 600px;
+    }
+
+    #title {
+
+
+        color: white;
+        font-family: 'Alegreya', serif;
+        font-size: 35px;
+        font-size: 3.0vw;
+    }
+
+    .customnavbarnav {
+        width: 100%;
+        text-align: center;
+    }
+
+    .customlist {
+        width: 33.33333333333333%
+    }
 }
-
-#hey {
-    background-color: #99BD0C;
-}
-
-#row1 {
-    background-image: url("../images/background.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    height: 600px;
-}
-
-#title {
-
-
-    color: white;
-    font-family: 'Alegreya', serif;
-    font-size: 35px;
-    font-size: 3.0vw;
-}
-
-.customnavbarnav {
-    width: 100%;
-    text-align: center;
-}
-
-.customlist {
-    width: 33.33333333333333%
-}
-}
-
