@@ -3,7 +3,7 @@
 $(document).ready(function() {
        
     $("li[name='about']").click(function() {
-        var domElement = $('<p>Here words go</p>');
+        var domElement = $("<div class='container' id='chickens'> <p>Woah look at this</p> </div>");
         $("#thatRow").html(domElement);
     });
     $("li[name='blog']").click(function() {

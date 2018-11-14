@@ -35,6 +35,10 @@
     .customlist {
         width: 33.33333333333333%
     }
+    #chickens {
+        background-color: red;
+        height: 320px;
+    }
 }
 
 
@@ -69,6 +73,10 @@
     .customlist {
         width: 33.33333333333333%
     }
+    #chickens {
+        background-color: red;
+        height: 375px;
+    }
 }
 
 @media only screen and (min-width: 736px) {
@@ -101,6 +109,10 @@
 
     .customlist {
         width: 33.33333333333333%
+    }
+    #chickens {
+        background-color: red;
+        height: 414px;
     }
 }
 
@@ -135,12 +147,17 @@
     .customlist {
         width: 33.33333333333333%
     }
+    #chickens {
+        background-color: red;
+        height: 375px;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
     /* For desktop: */
     #thisRow {
-        height: 800px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
     }
 
     #hey {
@@ -153,6 +170,10 @@
         background-size: 100%;
         background-position: center;
         height: 600px;
+    }
+    #chickens {
+        background-color: red;
+        height: 500px;
     }
 
     #title {
